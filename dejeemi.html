@@ -1,0 +1,296 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="dejeemi.css">
+    <title>DEJ' EEMI</title>
+</head>
+
+    <body class="body">
+
+        <div>
+            <img class="illustration" src="./images/ill.png">
+            <p class="intro">Pour quel jour recherches-tu un plat ?</p>
+        </div>
+
+        <div class="calendar" id="calendar">
+            <div class="month">
+                <p class="text">Avril</p>
+            </div>
+            <div class="calendar-content">
+            <div class="days">
+                <div class="week">Lun</div>
+                <div class="week">Mar</div>
+                <div class="week">Mer</div>
+                <div class="week">Jeu</div>
+                <div class="week">Ven</div>
+                <div class="week">Sam</div>
+                <div class="week">Dim</div>
+            </div>
+            <div class="today">
+                <div class="week" onclick="view('lun')">1</div>
+                <div class="week" onclick="view('mar')">2</div>
+                <div class="week" onclick="view('mer')">3</div>
+                <div class="week" onclick="view('jeu')">4</div>
+                <div class="week" onclick="view('ven')">5</div>
+                <div class="week" onclick="view('sam')">6</div>
+                <div class="week" onclick="view('dim')">7</div>
+            </div>
+            <div class="today">
+                <div class="week" onclick="view('lun')">8</div>
+                <div class="week" onclick="view('mar')">9</div>
+                <div class="week" onclick="view('mer')">10</div>
+                <div class="week" onclick="view('jeu')">11</div>
+                <div class="week" onclick="view('ven')">12</div>
+                <div class="week" onclick="view('sam')">13</div>
+                <div class="week" onclick="view('dim')">14</div>
+            </div>
+            <div class="today">
+                <div class="week" onclick="view('lun')">15</div>
+                <div class="week" onclick="view('mar')">16</div>
+                <div class="week" onclick="view('mer')">17</div>
+                <div class="week" onclick="view('jeu')">18</div>
+                <div class="week" onclick="view('ven')">19</div>
+                <div class="week" onclick="view('sam')">20</div>
+                <div class="week" onclick="view('dim')">21</div>
+            </div>
+            <div class="today">
+                <div class="week" onclick="view('lun')">22</div>
+                <div class="week" onclick="view('mar')">23</div>
+                <div class="week" onclick="view('mer')">24</div>
+                <div class="week" onclick="view('jeu')">25</div>
+                <div class="week" onclick="view('ven')">26</div>
+                <div class="week" onclick="view('sam')">27</div>
+                <div class="week" onclick="view('dim')">28</div>
+            </div>
+            <div class="today">
+                <div class="week" onclick="view('lun')">29</div>
+                <div class="week" onclick="view('mar')">30</div>
+                <div class="week"></div>
+                <div class="week"></div>
+                <div class="week"></div>
+                <div class="week"></div>
+                <div class="week"></div>
+            </div>
+        </div>
+
+        <div class="bar">
+            <img class="icon" src="./images/profil.png">
+            <img class="icon" src="./images/recettes.png">
+            <img class="icon" src="./images/commande.png">
+            <img class="icon" src="./images/ajout.png">
+            <img class="icon" src="./images/shop.png">
+        </div>
+
+        </div>
+        <div class="container-eat">
+            <h3 id="title">Les plats du jour</h3>
+            <div class="cook lun">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Pâtes au Pesto Vert</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+             <div class="cook lun">
+                <div class="eat-price">
+                    <img src="images/rub.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Pâtes Bolognaise</h3>
+                    <h4 class="eat-cooker">Ruben Abehsera</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook lun">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Chilicon Carne</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook lun">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Pizza 4 fromages</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+
+
+            <div class="cook mar">
+                <div class="eat-price">
+                    <img src="./images/rub.png">
+                    <p>8,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Salade Avocat</h3>
+                    <h4 class="eat-cooker">Ruben Abehsera</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook mar">
+                <div class="eat-price">
+                    <img src="./images/rub.png">
+                    <p>8,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Boeuf au caramel</h3>
+                    <h4 class="eat-cooker">Ruben Abehsera</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook mar">
+                <div class="eat-price">
+                    <img src="./images/leonore.png">
+                    <p>8,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Pâtes Carbonara</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook mar">
+                <div class="eat-price">
+                    <img src="./images/rub.png">
+                    <p>8,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Riz et Saumon</h3>
+                    <h4 class="eat-cooker">Ruben Abehsera</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+
+
+            <div class="cook mer">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Croc Monsieur</h3>
+                    <h4 class="eat-cooker">Ruben Abehsera</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook mer">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Dinde au citron</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+
+            <div class="cook jeu">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Rouleau de printemps</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook jeu">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Lasagnes</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook jeu">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Tartiflette</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            <div class="cook ven">
+                <div class="eat-price">
+                    <img src="images/leonore.png">
+                    <p>7,50 €</p>
+                </div>
+                <div class="eat-content">
+                    <h3 class="eat-title">Raclette</h3>
+                    <h4 class="eat-cooker">Léonore Barzani</h4>
+                    <p class="eat-description">Description</p>
+                </div>
+                <div>
+                    <p class="see-plus">Voir plus</p>
+                </div>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="dejeemi.js"></script>
+    </body>
+    
+</html>

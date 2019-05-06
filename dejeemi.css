@@ -1,0 +1,226 @@
+.body{
+    background: #FCCE00;
+    margin: 0;
+    font-family: Source Sans Pro;
+    position: relative;
+}
+
+.illustration{
+    
+}
+
+.intro{
+    color: #343434;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.month{
+    background : url(./images/backlonth.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 44px;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3C3C3C;
+}
+
+.text{
+    padding: 15px;
+}
+
+.calendar-content{
+    background: white;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 320px;
+    text-align: center;
+    padding-top: 15px;
+    -webkit-box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+    -moz-box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+    box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+}
+
+.week{
+    width: 15px;
+    height: 50px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.days{
+    display: flex;
+    color: #969696;
+    font-size: 16px;
+   
+}
+
+.today{
+    display: flex;
+    
+}
+
+.bar{
+    position: absolute;
+    width: 100%;
+    height: 88px;
+    bottom: 0px;
+    transform: translateY(50%);
+    position: fixed;
+    background: #FCCE00;
+}
+
+.icon{
+ padding-right: 9px;
+ padding-left: 9px;
+ height: 25px;
+ width: auto;
+ margin-top: 10px;
+ margin-left: 9px;
+}
+
+.container-eat{
+    background: white;
+   
+}
+
+#title{
+    color: #343434;
+    font-size: 21;
+    text-align: center;
+    padding: 30px;
+}
+
+.cook{
+    display: flex;
+    flex-wrap: wrap;
+    width: 334px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 21px;
+    border-radius: 8px;
+    -webkit-box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+    -moz-box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+    box-shadow: -3px 3px 7px -1px rgba(184,184,184,0.78);
+}
+
+.eat-price{
+    width: 112px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.eat-content{
+    width: 222px;
+    box-shadow: -3px 2px 8px 0px rgba(#BABABA);
+}
+
+
+
+.eat-title{
+    margin-bottom: 1px;
+    margin-top: 40px;
+}
+
+.eat-cooker{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: lightgrey;
+}
+
+.see-plus{
+    width: 300px;
+    text-align: right;
+}
+
+/* calendrier js : 
+.body{
+    font-family : Source Sans Pro;
+}
+
+.calendar
+{
+    background:#fff;
+    border-radius:4px;
+    color: white;
+    font-family: Source Sans Pro;
+    overflow:hidden;
+}
+
+.calendar .header
+{
+    background:#EDEDF1;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.calendar .month
+{
+    display:inline-block;
+    font-weight:bold;
+}
+
+.calendar button
+{
+    background:none;
+    color:inherit;
+    cursor:pointer;
+    font-family:Consolas;
+    font-size:1.75rem;
+    height:100%;
+    padding:0 15px;
+}
+
+.calendar button:hover
+{
+    color:yellow;
+}
+
+.calendar button:first-child
+{
+    float:left;
+}
+
+.calendar button:last-child
+{
+    float:right;
+}
+
+.calendar .cell
+{
+    background:#fff;
+    color:#5d5d5d;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:10px 0;
+    text-align:center;
+    width:calc(100% / 7);
+}
+
+.calendar .day
+{
+    font-size:.8rem;
+    padding:8px 0;
+}
+
+.calendar .day, .calendar .today
+{
+    color: 969696;
+  
+}
+
+.calendar .today{
+    background: #FF6A7C;
+    border-radius: 50px;
+    color: #3C3C3C;
+}
+*/
